@@ -2,7 +2,7 @@ import json
 
 
 def generate_diffdock_instructions(
-    debug_logs=True,
+    debug_logs=False,
     protein_path="inputs/test.pdb",
     fasta_out_file="outputs/prepared_for_esm.fasta",
     ligand="inputs/test.sdf",
