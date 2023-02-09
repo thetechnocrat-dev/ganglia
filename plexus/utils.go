@@ -293,6 +293,7 @@ func main() {
 
 	// print the values of the flags
 	fmt.Println("## User input ##")
+	fmt.Println("## test")
 	fmt.Println("Provided application name:", *app)
 	fmt.Println("Provided directory path:", *in_dir)
 	fmt.Println("## Default parameters ##")
